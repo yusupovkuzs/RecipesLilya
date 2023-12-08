@@ -1,0 +1,64 @@
+/* welcome section */
+
+.welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F5F5F7;
+	padding-bottom: 40px;
+	padding-top: 71px;
+	background-image: url("../../img/welcome-bg.jpg");
+	height: calc(100vh - 110px);
+}
+
+button {
+	width: 250px;
+	height: 55px;
+	background-color: #2f3348;
+	color: #f4dcb2;
+	font-size: 20px;
+	font-weight: 400;
+	border: none;
+	border-radius: 25px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/* categories */
+
+.category {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 78px;
+	margin-bottom: 150px;
+	background: white;
+}
+
+.category__box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.categories {
+	display: flex;
+	gap: 80px;
+	padding-top: 50px;
+}
+
+.category__name {
+	color: #0A0A0A;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 130%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.category__img {
+	width: 250px;
+	height: 350px;
+}

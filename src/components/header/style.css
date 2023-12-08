@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	height: 110px;
+	background-color: #15161b;
+	color: #717171;
+	font-size: 22px;
+}
+
+.header__box {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header__link {
+	all: unset;
+	margin-right: 25px;
+}
+
+.header__link:nth-child(3) {
+	margin-right: 0;
+}
+
+.header__link:hover {
+	cursor: pointer;
+	color: white;
+	transition: 0.4s ease-in-out;
+}

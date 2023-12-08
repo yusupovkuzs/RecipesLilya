@@ -1,0 +1,32 @@
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+[class*="__container"] {
+	width: 1220px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.title {
+	margin-bottom: 40px;
+	font-size: 40px;
+	color: #f4dcb2;
+}
+
+.title-second {
+	color: #2f3348;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 72px;
+}
+
+.logo {
+	margin-right: 135px;
+}
+
+.logo:hover {
+	cursor: pointer;
+}

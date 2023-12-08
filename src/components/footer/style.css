@@ -1,0 +1,17 @@
+.footer {
+	background-color: #000;
+	padding: 40px 0;
+}
+
+.footer__container {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	color: #717171;
+}
+
+.footer__link {
+	all: unset;
+	margin-right: 25px;
+}
